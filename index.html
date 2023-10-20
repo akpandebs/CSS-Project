@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
-   <header>
-    <title>My first portfolio</title>
-    <meta charset="UTF-8">
-    <body style="background-color: rgb(120, 151, 186);"></body>
-    <div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
         </nav>
-    </div>
-   </header> 
-   <section>
-    <body>
-        <div>
-            <img scr="FB_IMG_1673196491199.jpg" alt="My pic"></img>
-            <h2>Hi, I'm Akpan Deborah</h2>
-        <h3>Frontend developer</h3>
-        <h5>I like to craft solid and scalable frontend products with great user experience.</h5>
-        </div>
-        <!..I hope i'm making sense..>
+        <section>
+                <div class="image">
+                    <img src="./face.jpg" alt="My pic"/>
+                </div>
+                <div class="content">
+                    <h2>Hi, I'm Akpan Deborah</h2>
+                    <h3>Frontend developer</h3>
+                    <h5>I like to craft solid and scalable frontend products with great user experience.</h5>
+                </div>
+                <div class="button">
+                    <a href="#"><button class="btn"> HIRE ME!</button> </a>
+                </div>
+                <div class="footer">
+                    <h4>Sign Up for my newsletter</h4>
+                    <form>
+                        <label for="">Name</label>
+                        <input type="text">
+                        <br>
+                        <label for="">Surname</label>
+                        <input type="text">
+                        <br>
+                        <label for="">Phone Number</label>
+                        <input type="Number">
+                        <br>
+                        <br>
+                        <div>
+                            <a href="#"><button class="btn">Submit</button> </a>
+                        </div>
+                    </form>
+                </div>
+        </section>
     </body>
-   </section>
-   <section>
-    <footer>
-    </div>
-    <h4>Sign Up for my newsletter</h4>
-    <div>
-    <form>
-        <label for="">Name</label>
-        <input type="text">
-        <br>
-        <label for="">Surname</label>
-        <input type="text">
-        <br>
-        <label for="">Phone Number</label>
-        <input type="Number">
-        <br>
-        <br>
-    <button>Submit</button>
-    </footer>
-   </section>
 </html>
